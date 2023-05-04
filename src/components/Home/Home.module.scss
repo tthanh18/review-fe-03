@@ -1,0 +1,139 @@
+.home {
+    width: 856px;
+    height: 1852px;
+    margin: auto;
+    color: #fff;
+}
+
+.home__header {
+    margin: 0 10px;
+
+    .header__wifi {
+        >.wifi__circle {
+            font-size: 15px;
+
+            margin-right: 2px;
+        }
+
+        :last-child {
+            margin-left: 10px;
+            font-size: 26px;
+            margin-top: 5px;
+        }
+    }
+
+    .header__time {
+        font-size: 32px;
+        font-weight: 300;
+    }
+
+    .header__pin {
+        div {
+            display: inline-block;
+            font-size: 32px;
+            font-weight: 300;
+        }
+
+        :last-child {
+            margin-left: 5px;
+        }
+    }
+}
+
+.home__weather {
+    margin: 0 10px;
+
+    .home__temp {
+        width: 50%;
+        display: inline-block;
+
+        .text_temperature {
+            margin-left: 15px;
+            font-size: 120px;
+            font-weight: 350;
+            position: relative;
+        }
+
+        span {
+            font-size: 32px;
+            position: absolute;
+            top: 35px;
+            font-weight: 500;
+        }
+
+        .city {
+            font-size: 32px;
+            line-height: 0;
+            margin-left: 15px;
+        }
+    }
+
+    .weather {
+        width: 50%;
+        display: inline-block;
+
+        img {
+            width: 100px;
+            height: 100px;
+            margin-right: 15px;
+            margin-top: 30px;
+        }
+
+        .condition {
+            font-size: 29px;
+            margin-right: 15px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.home__content {
+    height: 60%;
+    font-size: 60px;
+    word-spacing: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__bar {
+    height: 430px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .bar__hum {
+        img {
+            width: 40px;
+            height: 52px;
+        }
+
+        span {
+            font-size: 28px;
+            margin-left: 10px;
+        }
+    }
+
+    .bar__temp {
+        img {
+            width: 40px;
+            height: 52px;
+        }
+
+        span {
+            font-size: 28px;
+            margin-left: 10px;
+        }
+    }
+
+    .bar__wind {
+        img {
+            width: 40px;
+            height: 52px;
+
+        }
+
+        span {
+            font-size: 28px;
+            margin-left: 10px;
+        }
+    }
+}
